@@ -25,7 +25,7 @@ help             | he        | Shows help
 <details>
     <summary><b>Sources</b></summary>
   
-```
+```bash
 #!/bin/bash
 # Apt-ng v0.1 -- the wrapper over APT
 # Author: Lev Zagatov, License: GNU GPL v3
