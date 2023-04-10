@@ -1,11 +1,11 @@
 # apt-ng
 APT-NG -- the wrapper over APT written in Bash.
 
-**What it can do?**\
-APT-NG supports short Zypper-like keys (e.g. `apt-ng in package` instead `apt-ng install package`). You can install, remove packages, search in repos for package and other many things you can do. If there is not APT-NG key APT-NG runs APT with that key.
+**What can it do?**\
+APT-NG supports short Zypper-like keys (e.g. `apt-ng in package` instead `apt-ng install package`). You can install, remove packages, search the package in repos and some other stuff. If there is no APT-NG key found APT is being run with that key.
 
-**What it requires?**\
-APT-NG uses `bash`, `apt`, `apt-get`, `dpkg`. If you have up-to-date Debian-based system you must have that.
+**What does APT-NG require?**\
+APT-NG uses `bash`, `apt`, `apt-get`, `dpkg`. If you have up-to-date Debian-based system you must have those.
 
 **How to use it?**\
 That's usage, output of `apt-ng help`.
@@ -28,7 +28,7 @@ help             | he        | Shows help
 ```bash
 #!/bin/bash
 # Apt-ng v0.1 -- the wrapper over APT
-# Author: Lev Zagatov, License: GNU GPL v3
+# Author: ten year old me, License: GNU GPL v3
 
 KEY=`echo "$1" | tr '[:upper:]' '[:lower:]'`
 VERSION=0.1
