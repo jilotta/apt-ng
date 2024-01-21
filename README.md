@@ -1,13 +1,13 @@
 # apt-ng
 APT-NG -- the wrapper over APT written in Bash.
 
-**What can it do?**\
+**What can it do?**  
 APT-NG supports short Zypper-like keys (e.g. `apt-ng in package` instead `apt-ng install package`). You can install, remove packages, search the package in repos and more. If the key specified is not recognised as an APT-NG key, APT is being run with that key.
 
-**What does APT-NG require?**\
+**What does APT-NG require?**  
 APT-NG uses `bash`, `apt`, `apt-get`, `dpkg`. If you have an up-to-date Debian-based system you must have them.
 
-**How to use it?**\
+**How to use it?**  
 Key              | Short key | Sense
 ----------------:|-----------|:---------------------
 install          | is/in     | Installs package(s) from repo
