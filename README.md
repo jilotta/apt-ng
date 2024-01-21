@@ -27,7 +27,7 @@ help             | he        | Shows help
 ```bash
 #!/bin/bash
 # Apt-ng v0.1 -- the wrapper over APT
-# Author: ten year old me, License: GNU GPL v3
+# License: GNU GPL v3
 
 KEY=`echo "$1" | tr '[:upper:]' '[:lower:]'`
 VERSION=0.1
